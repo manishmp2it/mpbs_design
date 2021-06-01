@@ -10,12 +10,13 @@ html {
     background: url("../img/slide_03.jpg") no-repeat center center;
     background-size: cover;
 }
-p{
+
+p {
     font-family: Seogiu;
 }
-h1
-{
-    color: #043997 !important;
+
+h1 {
+    color: #1c79be !important;
 }
 
 .top-nav-collapse {
@@ -69,7 +70,6 @@ h1
 }
 
 .wow .btn1 {
-   
     font-size: 20px;
     color: white;
     border-radius: 500px;
@@ -102,8 +102,32 @@ h1
     border: none;
 }
 
+.list-group-item:hover {
+    background: #1c79be !important;
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+.list-group-item:hover i {
+    color: #fff !important;
+}
+
 .list-group i {
-    color: #1863af;
+    color: #1c79be;
+}
+
+.nav-item {
+    width: auto;
+    display: block;
+    color: #fff;
+    text-transform: none;
+    text-decoration: none;
+    text-align: right;
+    background: rgba(0, 0, 0, 0);
+    border: 0;
+    border-radius: 0;
+    font-family: inherit;
+    outline: none;
 }
 
 
@@ -112,6 +136,12 @@ h1
 body {
     background: #eee;
 }
+
+
+/* .whole-card {
+    box-shadow: 0 1px 1px 1px rgba(64, 64, 64, 0.3) !important;
+    margin: .5rem;
+} */
 
 .card2::after {
     display: block;
@@ -137,17 +167,39 @@ a.card2 {
     border-radius: 0;
     background-color: #fff;
     -webkit-box-shadow: 0 20px 40px 5px rgba(64, 64, 64, 0.3);
-    box-shadow: 0 20px 40px 5px rgba(64, 64, 64, 0.4)
+    box-shadow: 0 20px 40px 5px rgba(64, 64, 64, 0.3);
 }
 
-.card-body
-{
+.card2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: .25rem;
+}
+
+.card-body {
     text-decoration: underline white !important;
 }
+
 .box-shadow2 {
     width: 60px;
     height: 60px;
-        margin-top: -35px;
+    margin-top: -35px;
+}
+
+.box-shadow2 {
+    -webkit-box-shadow: 0 12px 20px 1px rgba(64, 64, 64, 0.09) !important;
+    box-shadow: 0 12px 20px 1px rgba(64, 64, 64, 0.09) !important;
 }
 
 .ml-auto2,
@@ -195,7 +247,7 @@ a.card2 {
 }
 
 .text2-sm {
-    font-size: 14px !important;
+    font-size: 16px !important;
 }
 
 .p2,
@@ -217,7 +269,7 @@ a.card2 {
 
 .head2-icon {
     margin-top: 18px;
-    color: #37a9c9;
+    color: #1c79be;
 }
 
 .readmore .btn1 {

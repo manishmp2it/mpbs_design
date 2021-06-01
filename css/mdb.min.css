@@ -8810,7 +8810,7 @@ table.table a.btn.btn-black {
 
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link,
 .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
-    color: #3dc5eb;
+    color: #fff;
     transition: .35s
 }
 
@@ -8862,8 +8862,8 @@ table.table a.btn.btn-black {
 
 @media (min-width: 600px) {
     .navbar.scrolling-navbar {
-        padding-top: 12px;
-        padding-bottom: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         transition: background 0.5s ease-in-out, padding 0.5s ease-in-out
     }
     .navbar.scrolling-navbar .navbar-nav>li {
